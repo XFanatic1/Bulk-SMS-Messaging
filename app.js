@@ -79,7 +79,7 @@ MongoClient.connect(url, function(err, db) {
       function sendmessage(num, pro) {
 
         var mailOptions = {
-        from: 'tuftadam@gmail.com',
+        from: '',
         to: num + pro,
         subject: '',
         text: messageinfo
